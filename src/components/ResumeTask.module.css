@@ -1,0 +1,21 @@
+.container{
+  margin-top: 6rem;
+}
+
+.titles{
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  color: var(--blue);
+  border-bottom: 1px solid var(--gray-400);
+  padding-bottom: 1.5rem;
+}
+
+.titles span {
+  background-color: var(--gray-400);
+  color: var(--gray-200);
+  font-weight: bold;
+  padding: 0.125rem 0.5rem;
+  border-radius: 999px;
+  margin-left: 0.5rem;
+}

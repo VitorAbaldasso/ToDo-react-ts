@@ -1,0 +1,40 @@
+.taskForm {
+ width: 100%;
+  max-width: 70%;           /* ou 80%, ajustável */
+  margin: -1.5rem auto;      /* centraliza horizontalmente */
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.taskForm input{
+  flex: 1;
+  background-color: var(--gray-400);
+  resize: none;
+  color: var(--gray-200);
+  border: 2px solid var(--gray-900);
+  border-radius: 8px;
+  padding: 0.75rem;
+  font-size: 0.75rem;
+}
+
+.input::placeholder {
+  color: #808080;
+}
+.taskForm button{
+  background-color: var(--blue);
+  padding: 0.55rem;
+  border-radius: 8px;
+  border: none;
+  align-items: center;
+
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+.taskForm button svg {
+  vertical-align: middle;
+  margin-top: -4px; /* 👈 corrige posição do ícone */
+}
+
+.taskForm button:hover {
+  background-color: var(--blue-dark);
+}

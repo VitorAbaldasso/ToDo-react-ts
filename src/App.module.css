@@ -1,0 +1,5 @@
+.wrapper{
+  max-width: 46rem;     /* ou 60rem (960px), ajustável */
+  margin: 0 auto;        /* centraliza na horizontal */
+  padding: 0 1rem;       /* evita colar nas bordas em telas pequenas */
+}
