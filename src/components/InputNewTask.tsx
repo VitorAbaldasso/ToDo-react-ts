@@ -1,6 +1,11 @@
 import styles from './InputNewTask.module.css'
 import {Plus} from 'phosphor-react'
+// import { useState } from 'react'
+
 export function InputNewTask() {
+
+ //const[newTask, setNewTask] = useState('');
+
   return (
     <div>
 
@@ -14,6 +19,10 @@ export function InputNewTask() {
           <button type='submit'>
             Criar <span><Plus size={18} weight='bold'/></span>
           </button>
+
+          <main>
+            
+          </main>
 
         </form>
 

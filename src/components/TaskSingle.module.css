@@ -1,0 +1,44 @@
+.TaskArea {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-radius: 4px;
+  margin-top: 1rem;
+  width: 100%;
+  background-color: var(--gray-400);
+  padding: 0.785rem;
+}
+
+.TaskArea > p {
+  color: var(--gray-100);
+  margin: 0 1rem;
+  flex: 1;
+}
+
+.TaskArea button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilos separados por tipo de botão */
+.Check {
+  color: var(--gray-300);
+}
+.Check:hover {
+  color: var(--blue);
+}
+
+
+.Trash {
+  color: var(--gray-300);
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+
+.Trash:hover {
+  color: red;
+}
